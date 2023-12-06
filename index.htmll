@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Affiliate Program & Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Affiliate Program & 66-Day Internship</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="affiliate.html">Affiliate Program</a></li>
+                <li><a href="internship.html">66-Day Internship</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Welcome to our unique program. Learn more about our <a href="affiliate.html">Affiliate Program</a> and <a href="internship.html">66-Day Internship</a>.</p>
+    </main>
+    <footer>
+        <p>© 2023 Affiliate Program & Internship</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
