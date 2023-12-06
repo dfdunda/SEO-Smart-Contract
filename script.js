@@ -20,8 +20,8 @@ window.addEventListener('load', async () => {
 });
 
 function initContract() {
-    const contractAddress = 'YOUR_CONTRACT_ADDRESS';
-    const contractABI = YOUR_CONTRACT_ABI;
+    const contractAddress = 'bzz-raw://826a85e5d3fd9aca3ca332f3c60b349fbf565fb01390d6e76527c2d224740c64';
+    const contractABI = 0xe9b6e874dc2d94f636c6b786ae54e6d066ac78ea90135a4df721e32bd00d59ce;
     contract = new web3.eth.Contract(contractABI, contractAddress);
 }
 async function callContractFunction() {
