@@ -24,3 +24,13 @@ function initContract() {
     const contractABI = YOUR_CONTRACT_ABI;
     contract = new web3.eth.Contract(contractABI, contractAddress);
 }
+async function callContractFunction() {
+    const accounts = await web3.eth.getAccounts();
+    contract.methods.yourContractMethod().send({ from: accounts[0] })
+        .then(result => {
+            console.log(result);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+}
